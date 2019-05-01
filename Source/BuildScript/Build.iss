@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "LivelyVillage"
-#define MyAppVersion "1.0.3.0"
+#define MyAppVersion "1.0.4.0"
 #define MyAppPublisher "TylaPryanik"
 #define MyAppURL "https://viktorwii.itch.io/a-lively-village"
 #define MyAppExeName "TinyTown.exe"
@@ -35,8 +35,8 @@ Name: "russian"; MessagesFile: "compiler:Languages\Russian.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "D:\Builds\GameJams\LivelyVillageBuild\LivelyVillageWindows\TinyTown.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Builds\GameJams\LivelyVillageBuild\LivelyVillageWindows\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "D:\Builds\GameJams\LivelyVillageBuild\LivelyVillageWindows1.0.4.0\TinyTown.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\Builds\GameJams\LivelyVillageBuild\LivelyVillageWindows1.0.4.0\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
